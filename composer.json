@@ -1,5 +1,5 @@
 {
-    "name": "adwiv/laravel-error-mailer",
+    "name": "crazyit/laravel-error-mailer",
     "description": "Report errors by mail while ignoring repeating ones.",
     "type": "library",
     "license": "MIT",
@@ -9,13 +9,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Adwiv\\Laravel\\ErrorMailer\\": "src/"
+            "CrazyIT\\Laravel\\ErrorMailer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Adwiv\\Laravel\\ErrorMailer\\ErrorMailerServiceProvider"
+                "CrazyIT\\Laravel\\ErrorMailer\\ErrorMailerServiceProvider"
             ]
         }
     },

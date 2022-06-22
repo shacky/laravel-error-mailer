@@ -1,6 +1,6 @@
 <?php
 
-namespace Adwiv\Laravel\ErrorMailer;
+namespace CrazyIT\Laravel\ErrorMailer;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

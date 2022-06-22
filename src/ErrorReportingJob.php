@@ -1,6 +1,6 @@
 <?php
 
-namespace Adwiv\Laravel\ErrorMailer;
+namespace CrazyIT\Laravel\ErrorMailer;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

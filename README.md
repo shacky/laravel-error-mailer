@@ -1,12 +1,13 @@
 # Laravel ErrorLog Mailer
 Package to report laravel errors by email with throttling and deduplication.
+Fork of adwiv/laravel-error-mailer that is working fine with laravel 5.3+.
 
 ## Installation
 
 1. Require this package with composer using the following command:
 
 ```bash
-composer require adwiv/laravel-error-mailer
+composer require crazyit/laravel-error-mailer
 ```
 
 2. Run the migration to create the `error_logs` table.
