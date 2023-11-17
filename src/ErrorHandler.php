@@ -14,7 +14,7 @@ class ErrorHandler extends AbstractProcessingHandler
         parent::__construct($level, $bubble);
     }
 
-    protected function write(array $record): void
+    protected function write($record): void
     {
         $url = url()->current();
         $inputs = request()->input();
